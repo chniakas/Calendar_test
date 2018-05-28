@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #008000;
+    text-align: center;
+}
+
+/* Previous button */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.head {
+    font-size: 35px;
+    letter-spacing: 2px;
+
+}
+/* Line with namedays */
+.namedays {
+    width: 100%;   
+    padding: 5px ;   
+    margin: 5px;
+    background-color:#ddd;
+}
+/* Line with namedays */
+.namedays li {
+    width: 13%;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;    
+}
