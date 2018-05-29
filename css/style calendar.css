@@ -22,58 +22,57 @@ ul {
 
 .prev {
   float: left;
-  margin-left:260px;
+  margin-left: 260px;
   margin-top: 45px;
-  
 }
 
- .head {
-   float :left;
-   margin-top: 20px;
-  margin-left:30px;
-  font-size: 75px;  
+.head {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 75px;
   letter-spacing: 2px;
   color: white;
   font: bold;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 /* Next button */
 
 .next {
-    float: left;
-     margin-top: 45px;
-     margin-left:25px;
- 
+  float: left;
+  margin-top: 45px;
+  margin-left: 25px;
 }
 
 /* Line with namedays */
 
-.namedays {  
-  padding-top:10px;
+.namedays {
+  padding-top: 10px;
   margin-top: 10px;
   text-align: center;
   font-size: 25px;
   letter-spacing: 1px;
   color: white;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-
 .week {
-  padding: 50px 25px;
-  margin: 15px;
   background-color: white;
 }
 
 td {
   width: 170px;
-  
   height: 115px;
   text-align: center;
   font-size: 55px;
 }
 
 td:hover {
-  background-color: lightgrey;		    
+  background-color: lightgrey;
   cursor: pointer;
 }
+
