@@ -72,7 +72,11 @@ td {
 }
 
 td:hover {
-  background-color: lightgrey;
+  background-color: lightgrey;  
   cursor: pointer;
+}
+
+tr td #sunday  {
+  color: red;
 }
 
