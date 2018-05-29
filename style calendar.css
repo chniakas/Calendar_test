@@ -1,73 +1,79 @@
 .full {
     background-color: #41b64e;
-    width: 100%;
-    height: 900px;
-    border: solid 2px red;
-   overflow: hidden;
-
-}
-
-.month {
-    margin-top: 20px;
-    padding: 40px 20px;
-    margin: 10px;
-    background: #1b751b;
-    align-self: center;    
-    border: solid 2px red;
+    width: 1200px;
+    height: 750px;
     overflow: hidden;
-
-}
-
-ul {
+  }
+  
+  .month {
+    width: 1160px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background: #1b751b;
+  }
+  
+  ul {
     list-style-type: none;
-}
-
-/* Previous button */
-
-.month .prev {
+  }
+  
+  /* Previous button */
+  
+  .prev {
     float: left;
-    border: solid 2px red;
-}
-.head {
-    font-size: 75px;
-    width: 30%
+    margin-left:260px;
+    margin-top: 45px;
+    
+  }
+  
+   .head {
+     float :left;
+     margin-top: 20px;
+    margin-left:30px;
+    font-size: 75px;  
     letter-spacing: 2px;
     color: white;
     font: bold;
     text-align: center;
-    border: solid 2px red;
-
-}
-
-/* Next button */
-
-.month .next {
-    float: left;
-    border: solid 2px red;
-}
-
-/* Line with namedays */
-
-.namedays {
-    width: 300px;
-    height: 50px;
+  }
+  
+  /* Next button */
+  
+  .next {
+      float: left;
+       margin-top: 45px;
+       margin-left:25px;
+   
+  }
+  
+  /* Line with namedays */
+  
+  .namedays {  
+    padding-top:10px;
+    margin-top: 10px;
     text-align: center;
-    border-collapse: collapse;
     font-size: 25px;
     letter-spacing: 1px;
-    color: rgb(255, 255, 255);
-}
-
-.week {
+    color: white;
+  }
+  
+  .week {
     padding: 50px 25px;
     margin: 15px;
     background-color: white;
-}
-
-.data {
+  }
+  
+  td {
     width: 300px;
     height: 115px;
     text-align: center;
-    border-collapse: collapse;
     font-size: 55px;
-}
+  }
+  
+  td:hover {
+    background-color: lightgrey;		    
+    cursor: pointer;
+  }
+  
+  
