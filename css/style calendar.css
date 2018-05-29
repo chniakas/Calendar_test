@@ -68,7 +68,7 @@ td {
   width: 170px;
   height: 115px;
   text-align: center;
-  font-size: 55px;
+  font-size: 65px;
 }
 
 td:hover {
@@ -87,8 +87,8 @@ td:active {
 tr td i  {
   font-size:25px;
   position:relative;
-  bottom:35px;
-  left:35px;
+  bottom:45px;
+  left:25px;
   color:black;
 }
 
