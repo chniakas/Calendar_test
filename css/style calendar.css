@@ -22,14 +22,14 @@ ul {
 
 .prev {
   float: left;
-  margin-left: 260px;
+  margin-left: 10px;
   margin-top: 45px;
 }
 
 .head {
   float: left;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 320px;
   font-size: 75px;
   letter-spacing: 2px;
   color: white;
@@ -44,7 +44,7 @@ ul {
 .next {
   float: left;
   margin-top: 45px;
-  margin-left: 25px;
+  margin-left: 275px;
 }
 
 /* Line with namedays */
