@@ -1,16 +1,15 @@
 .full {
   background-color: #41b64e;
   width: 1200px;
-  height: 750px;
+  height: 755px;
   overflow: hidden;
 }
 
 .month {
   width: 1160px;
-  height: 100px;
+  height: 115px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 10px;
   background: #1b751b;
 }
 
@@ -26,9 +25,13 @@ ul {
   margin-top: 45px;
 }
 
+.prev:hover {
+  background-color: black;
+}
+
 .head {
   float: left;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 320px;
   font-size: 75px;
   letter-spacing: 2px;
@@ -47,6 +50,9 @@ ul {
   margin-left: 275px;
 }
 
+.next:hover {
+  background-color: black;
+}
 /* Line with namedays */
 
 .namedays {
@@ -69,6 +75,8 @@ td {
   height: 115px;
   text-align: center;
   font-size: 65px;
+  position: relative;
+  
 }
 
 td:hover {
@@ -86,9 +94,12 @@ td:active {
 
 tr td i  {
   font-size:25px;
-  position:relative;
+  position: absolute;
   bottom:45px;
-  left:25px;
+  left:21px;
   color:black;
+  
+  bottom: 80px;
+  left: 125px;
 }
 
