@@ -1,79 +1,79 @@
 .full {
-    background-color: #41b64e;
-    width: 1200px;
-    height: 750px;
-    overflow: hidden;
-  }
+  background-color: #41b64e;
+  width: 1200px;
+  height: 750px;
+  overflow: hidden;
+}
+
+.month {
+  width: 1160px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background: #1b751b;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Previous button */
+
+.prev {
+  float: left;
+  margin-left:260px;
+  margin-top: 45px;
   
-  .month {
-    width: 1160px;
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    background: #1b751b;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  /* Previous button */
-  
-  .prev {
+}
+
+ .head {
+   float :left;
+   margin-top: 20px;
+  margin-left:30px;
+  font-size: 75px;  
+  letter-spacing: 2px;
+  color: white;
+  font: bold;
+  text-align: center;
+}
+
+/* Next button */
+
+.next {
     float: left;
-    margin-left:260px;
-    margin-top: 45px;
-    
-  }
+     margin-top: 45px;
+     margin-left:25px;
+ 
+}
+
+/* Line with namedays */
+
+.namedays {  
+  padding-top:10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+
+.week {
+  padding: 50px 25px;
+  margin: 15px;
+  background-color: white;
+}
+
+td {
+  width: 170px;
   
-   .head {
-     float :left;
-     margin-top: 20px;
-    margin-left:30px;
-    font-size: 75px;  
-    letter-spacing: 2px;
-    color: white;
-    font: bold;
-    text-align: center;
-  }
-  
-  /* Next button */
-  
-  .next {
-      float: left;
-       margin-top: 45px;
-       margin-left:25px;
-   
-  }
-  
-  /* Line with namedays */
-  
-  .namedays {  
-    padding-top:10px;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 1px;
-    color: white;
-  }
-  
-  .week {
-    padding: 50px 25px;
-    margin: 15px;
-    background-color: white;
-  }
-  
-  td {
-    width: 300px;
-    height: 115px;
-    text-align: center;
-    font-size: 55px;
-  }
-  
-  td:hover {
-    background-color: lightgrey;		    
-    cursor: pointer;
-  }
-  
-  
+  height: 115px;
+  text-align: center;
+  font-size: 55px;
+}
+
+td:hover {
+  background-color: lightgrey;		    
+  cursor: pointer;
+}
