@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
 .full {
   background-color: #41b64e;
   width: 1200px;
@@ -22,12 +26,14 @@ ul {
 .prev {
   float: left;
   margin-left: 10px;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
-.prev:hover {
-  background-color: black;
+.fa-arrow-circle-left:before {  
+  color: black;
 }
+
+
 
 .head {
   float: left;
@@ -38,21 +44,21 @@ ul {
   color: white;
   font: bold;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-
 }
 
 /* Next button */
 
 .next {
   float: left;
-  margin-top: 45px;
+  margin-top: 40px;
   margin-left: 275px;
 }
-
-.next:hover {
-  background-color: black;
+ul li i  {  
+  color: black;
 }
+
+
+
 /* Line with namedays */
 
 .namedays {
@@ -62,8 +68,6 @@ ul {
   font-size: 25px;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Roboto', sans-serif;
-
 }
 
 .week {
@@ -76,30 +80,28 @@ td {
   text-align: center;
   font-size: 65px;
   position: relative;
-  
+  border: collapse;
 }
 
 td:hover {
-  background-color: lightgrey;  
-  color: green !important;
-  cursor: pointer;
+  background-color: lightgrey;
+  
 }
+
 td:active {
   padding-bottom: 2px;
   padding-right: 2px;
   padding-left: 2px;
-  
 }
 
-
-tr td i  {
-  font-size:25px;
-  position: absolute;
-  bottom:45px;
-  left:21px;
-  color:black;
-  
+tr td i {
+  font-size: 25px;
+  position: absolute;  
+  color: black;
   bottom: 80px;
   left: 125px;
 }
 
+.today  {
+  color: green;  
+}
